@@ -3,9 +3,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
 }
 
 .not-found-img {
-  width: 400px;
+  width: 300px;
+}
+
+.not-found-heading {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.not-found-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #616e7c;
+}
+
+.go-home-link {
+  text-decoration: none;
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
 }
